@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@mipmap/brainfreezelevel">
+
+    <Button
+        android:id="@+id/novicebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="163dp"
+        android:background="@drawable/button_mainmenu"
+        android:fontFamily="@font/baumans"
+        android:text="Novice"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/easybtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/novicebtn"
+        android:layout_below="@+id/novicebtn"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/button_mainmenu"
+        android:fontFamily="@font/baumans"
+        android:text="Easy"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/medbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/easybtn"
+        android:layout_below="@+id/easybtn"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_mainmenu"
+        android:fontFamily="@font/baumans"
+        android:text="Medium"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/gurubtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/medbtn"
+        android:layout_below="@+id/medbtn"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_mainmenu"
+        android:fontFamily="@font/baumans"
+        android:text="Guru"
+        android:textSize="18sp" />
+</RelativeLayout>
